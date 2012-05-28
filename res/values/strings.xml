@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RemoteGsensorControlActivity!</string>
+    <string name="app_name">RemoteGsensorControl</string>
+    <string name="ip_hint">Please input your controlled device ip address</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+</resources>
