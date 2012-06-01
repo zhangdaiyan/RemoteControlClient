@@ -19,15 +19,61 @@
 	    android:orientation="horizontal" >
 	    
 	    <Button
-	        android:id="@+id/start"
+	        android:id="@+id/start_sensor"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="@string/start" />
 	    <Button
-	        android:id="@+id/stop"
+	        android:id="@+id/stop_sensor"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="@string/stop" />
     </LinearLayout>
+    
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <Button
+	        android:id="@+id/start_mouse"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/start" />
+	    <Button
+	        android:id="@+id/stop_mouse"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/stop" />
+    </LinearLayout>
+    
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <Button
+	        android:id="@+id/home"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/home" />
+	    <Button
+	        android:id="@+id/menu"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/menu" />
+	    
+	    <Button
+	        android:id="@+id/back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/back" />
 
+    </LinearLayout>
+    
+	<View
+        android:id="@+id/touch_pad"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="@android:color/white" />
 </LinearLayout>
